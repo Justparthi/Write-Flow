@@ -14,6 +14,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from forms import AddForm, RegisterForm, LoginForm
 from dotenv import load_dotenv
 import os
+from flask_migrate import Migrate
 
 
 load_dotenv() 
@@ -40,8 +41,10 @@ app = Flask(__name__)
 
 end_pt = "https://api.npoint.io/c790b4d5cab58020d391"
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:parthi@localhost:5432/postgres"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://default:eZCj1c5NduwY@ep-flat-lab-a4qrz9nf-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
 db = SQLAlchemy(app)
+
+migrate = Migrate(app, db)
 
 ckeditor = CKEditor()
 ckeditor.init_app(app)
