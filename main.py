@@ -60,12 +60,12 @@ def load_user(user_id):
 class Blog(db.Model):
     __tablename__='blog'
     id = db.Column(Integer, primary_key=True)
-    title = db.Column(String(250), unique=True, nullable=False)
-    date = db.Column(String(500), nullable=False)
-    body = db.Column(String(250), nullable=False)
-    author = db.Column(String(250), nullable=False)
-    img_url = db.Column(String(500), nullable=False)
-    subtitle = db.Column(String(500), nullable=False)
+    title = db.Column(String(10000), unique=True, nullable=False)
+    date = db.Column(String(10000), nullable=False)
+    body = db.Column(String(1000000), nullable=False)
+    author = db.Column(String(10000), nullable=False)
+    img_url = db.Column(String(10000), nullable=False)
+    subtitle = db.Column(String(10000), nullable=False)
 
     def __init__(self,title,date,body, author, img_url, subtitle):
         self.title=title
