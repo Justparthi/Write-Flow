@@ -41,7 +41,7 @@ app = Flask(__name__)
 
 end_pt = "https://api.npoint.io/c790b4d5cab58020d391"
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://default:eZCj1c5NduwY@ep-flat-lab-a4qrz9nf-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+app.config['SQLALCHEMY_DATABASE_URI'] = "URL"
 db = SQLAlchemy(app)
 
 migrate = Migrate(app, db)
