@@ -7,11 +7,8 @@
 4. [Installation and Setup](#installation-and-setup)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-5. [Database Schema](#database-schema)
-6. [API Endpoints](#api-endpoints)
-7. [Front-end Integration](#front-end-integration)
-8. [Contributing](#contributing)
-9. [License](#license)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## 🌐 Introduction
 WriteFlow is a blog management web application built using the Flask web framework and PostgreSQL as the database. This project aims to provide a comprehensive platform for users to create, manage, and publish blog posts.
