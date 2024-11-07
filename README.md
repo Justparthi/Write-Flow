@@ -61,18 +61,16 @@ WriteFlow is a blog management web application built using the Flask web framewo
    ```
    flask run
    ```
+## 🌐 Deployment
 
-## 🗃️ Database Schema
-Provide a detailed diagram or description of the database schema, including the tables, columns, relationships, and any relevant constraints.
-
-## 🔍 API Endpoints
-Document the available API endpoints, including the HTTP methods, request/response payloads, and any relevant authentication or authorization requirements.
-
-## 🎨 Front-end Integration
-Explain how the Flask-based backend integrates with the front-end, whether it's a standalone React or Angular application, or a server-rendered Jinja2 template.
-
-## 🤝 Contributing
-Outline the guidelines for contributing to the project, including the development workflow, coding standards, and any relevant tooling (e.g., linters, formatters).
+1. **Deploy on Vercel**: Next.js works seamlessly with Vercel. Push your repository to GitHub and import it into Vercel.
+2. **Set Environment Variables**: Add your Supabase environment variables in Vercel’s dashboard.
 
 ## 📜 License
-Specify the license under which the project is released (e.g., MIT, Apache 2.0, GPL).
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
+
+## 📞 Support
+
+For any questions, please open an issue or contact us directly.
