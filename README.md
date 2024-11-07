@@ -20,30 +20,26 @@ WriteFlow is a blog management web application built using the Flask web framewo
 - User registration and authentication 🔒
 - Create, edit, and delete blog posts ✍️
 - Categorize and tag blog posts 🏷️
-- View blog post analytics (e.g., views, engagement) 📊
-- Commenting system for readers 💬
-- Admin dashboard for managing users and content 🧑‍💻
 
 ## 🛠️ Technology Stack
-- Python 🐍
-- Flask 🌈
-- PostgreSQL 🗄️
-- SQLAlchemy 🔌
-- Jinja2 (for templates) 🤖
-- Bootstrap (for UI) 🎨
-- Other relevant libraries and frameworks 🧰
+- Python 
+- Flask 
+- PostgreSQL 🗄
+- SQLAlchemy 
+- Jinja2 (for templates) 
+- Bootstrap (for UI) 
 
 ## 🧑‍🔧 Installation and Setup
 
 ### 📋 Prerequisites
-- Python 3.x 🐍
-- PostgreSQL 🗄️
+- Python 3.x 
+- PostgreSQL 
 - (Optional) Virtual environment management tool (e.g., venv, pipenv, conda) 🌐
 
 ### 🛠 Setup
 1. Clone the repository: 
    ```
-   git clone https://github.com/your-username/writeflow.git
+   git clone https://github.com/justparthi/Write-Flow.git
    ```
 2. Create and activate a virtual environment (optional but recommended):
    ```
